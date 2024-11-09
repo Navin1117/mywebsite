@@ -14,7 +14,7 @@ import 'font-awesome/css/font-awesome.min.css';
 const App = () => {
   useEffect(() => {
     // Initialize Google Analytics with your Measurement ID
-    ReactGA.initialize('G-QV5NFJKCM2'); // Replace with your Google Analytics Measurement ID
+    ReactGA.initialize('G-QV5NFJKCM2'); 
   }, []);
 
   const location = useLocation();
